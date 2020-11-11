@@ -1,0 +1,474 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&family=Montserrat:wght@300&family=Raleway&display=swap");
+
+* {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header.container {
+  height: 15em;
+  display: grid;
+  background-image: url(texture.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  box-shadow: inset 0 0 15px rgb(189, 183, 183);
+  padding-top: 100px;
+  padding-bottom: 150px;
+}
+
+#headshot {
+  /* max-width: 200px; */
+  border-radius: 50%;
+}
+
+.container > h1 {
+  font-size: 4em;
+  font-family: "Montserrat Alternates", sans-serif;
+  text-shadow: 1px 0px 3px rgb(255, 255, 255);
+
+  color: rgb(101, 101, 101);
+  letter-spacing: 0.5rem;
+  margin-bottom: 0;
+  margin-top: 30px;
+  padding-top: 70px;
+}
+
+.container > h4 {
+  color: rgb(48, 48, 48);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1.2em;
+  margin-top: 0;
+  padding-bottom: 10px;
+  margin-bottom: 4em;
+  text-shadow: 1px 0px 3px rgb(255, 255, 255);
+}
+
+h2.h-odd,
+h2.h-even {
+  color: rgb(48, 48, 48);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+.wrapper > div.pad {
+  display: grid;
+  grid-template-rows: auto;
+  padding: 4em 12em;
+  justify-content: center;
+}
+
+.wrapper > div.pad:nth-child(even) {
+  box-shadow: inset 0 0 15px rgb(189, 183, 183);
+
+  background-image: url(texture.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+div.pad > h2,
+h3 {
+  padding: 0 0 1em 0;
+  color: rgb(83, 82, 82);
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+div.justify {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  color: rgb(83, 82, 82);
+}
+
+div.pad > p {
+  text-align: justify;
+  padding: 1em 0;
+  color: rgb(83, 82, 82);
+  max-width: 1100px;
+  font-size: x-large;
+}
+
+button#read-more {
+  font-size: x-small;
+}
+
+div.logo {
+  margin-left: 12em;
+  font-size: 0.9em;
+  text-align: left;
+}
+
+div.portfolio-style {
+  padding: 2em;
+}
+
+div.logo-div {
+  margin-top: 1em;
+}
+
+nav {
+  margin-right: 12rem;
+  font-size: 0.9em;
+}
+
+ul {
+  text-align: right;
+}
+
+li {
+  display: inline;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+
+a {
+  color: rgb(83, 82, 82);
+  text-decoration: none;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
+}
+
+li:hover {
+  border-left: 1px dotted rgb(221, 198, 198);
+}
+
+a:hover {
+  color: rgba(0, 0, 0, 0.6);
+}
+
+footer {
+  text-align: center;
+  color: rgb(215, 209, 209);
+  margin: 10px 0;
+}
+
+/* portfolio page */
+
+div.portfolio-grid {
+  max-width: 1100px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+div.about-grid {
+  max-width: 1100px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  color: rgb(0, 0, 0);
+  align-items: center;
+}
+
+img.portfolio-even {
+  justify-self: end;
+}
+
+.portfolio-style {
+  display: grid;
+  grid-template-rows: auto;
+}
+
+p,
+img.portfolio-odd,
+div.portfolio-style > h2 {
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+div.portfolio-style > p {
+  text-align: justify;
+  font-size: x-large;
+}
+
+a#footer-link {
+  text-transform: lowercase;
+  color: rgb(215, 209, 209);
+  text-align: right;
+  border-left: 1px dotted rgb(221, 198, 198);
+  padding-right: 0;
+  padding-left: 0.25em;
+}
+
+h2.h-odd,
+img {
+  text-align: right;
+}
+
+div.portfolio-grid > img {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: 1px 1px 4px rgb(201, 201, 201);
+  opacity: 70%;
+  background: rgb(253, 252, 252);
+  border-radius: 3px;
+}
+
+div.about-grid > img {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 0.5em;
+  padding: 0.5em;
+  box-shadow: 1px 1px 4px rgb(201, 201, 201);
+  background: rgb(253, 252, 252);
+  border-radius: 3px;
+}
+
+div.portfolio-grid > img:hover {
+  opacity: 85%;
+  background: none;
+}
+
+/* contact */
+
+div.social-para > p {
+  text-align: justify;
+  padding: 1em;
+  font-size: x-large;
+  color: rgb(83, 82, 82);
+}
+
+div.form-container {
+  padding: 1em 1em;
+  color: rgb(83, 82, 82);
+}
+
+form.form-style {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+
+form.form-style > input,
+textarea {
+  border-color: rgb(185, 156, 156);
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 3px;
+  margin-bottom: 1em;
+  box-shadow: inset 0 0 3px rgb(243, 236, 236);
+}
+
+div.btn-grid {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+}
+
+div.btn-grid > button.btn-code {
+  justify-self: right;
+}
+div.btn-grid > button.btn-visit {
+  justify-self: right;
+}
+
+div.btn-grid-even {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+}
+div.btn-grid > button.btn-code-even {
+  justify-self: left;
+}
+div.btn-grid > button.btn-visit-even {
+  justify-self: left;
+}
+
+button.form-submit {
+  background-color: rgb(226, 216, 216);
+  color: rgb(75, 75, 75);
+  height: 25px;
+  border: none;
+  width: 80px;
+  text-shadow: none;
+  border-radius: 3px;
+  box-shadow: 1px 2px 3px rgb(139, 126, 126);
+  margin: 0.2em;
+}
+
+button.form-submit:hover {
+  box-shadow: 1px 2px 4px rgb(100, 87, 87);
+  width: 80px;
+  height: 25px;
+  margin-bottom: 2px;
+}
+
+div.social-media {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+  justify-content: center;
+  max-width: 1100px;
+}
+
+i.fa-linkedin,
+i.fa-github,
+i.fa-twitter {
+  font-size: xx-large;
+}
+
+i.fa-linkedin {
+  color: #2867b2;
+}
+i.fa-github {
+  color: #040204;
+}
+i.fa-twitter {
+  color: #1da1f2;
+}
+
+div.btn-grid-contact {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+div.btn-grid-contact > button.btn-clear {
+  justify-self: left;
+}
+div.btn-grid-contact > button.btn-submit {
+  justify-self: right;
+}
+
+/* contact end */
+
+@media screen and (max-width: 992px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  ul {
+    padding: 0;
+  }
+  li {
+    display: inline;
+    padding: 0;
+  }
+  a {
+    padding-right: 3px;
+  }
+  .wrapper > div {
+    padding-left: 4rem;
+    padding-right: 4rem;
+  }
+  nav {
+    margin-right: 6em;
+  }
+  div.logo {
+    margin-left: 6em;
+  }
+  div.logo {
+    margin-left: 6em;
+  }
+  .wrapper > div.pad {
+    margin: 0;
+    padding: 6em;
+  }
+  .container > h1 {
+    font-size: 3em;
+  }
+  div.portfolio-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  img {
+    justify-self: center;
+  }
+  img.portfolio-even {
+    justify-self: center;
+    padding-top: 2em;
+  }
+  img.portfolio-odd {
+    padding-bottom: 2em;
+  }
+  div.form-container {
+    padding: 1em 1em;
+  }
+  div.portfolio-style > h2 {
+    text-align: center;
+  }
+  div.btn-grid,
+  div.btn-grid-even {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  div.btn-grid > button.btn-code {
+    justify-self: left;
+  }
+  div.btn-grid > button.btn-visit {
+    justify-self: right;
+  }
+  div.btn-grid-even > button.btn-code-even {
+    justify-self: left;
+  }
+  div.btn-grid-even > button.btn-visit-even {
+    justify-self: right;
+  }
+}
+
+@media screen and (max-width: 724px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  ul,
+  li {
+    padding: 0;
+  }
+  li {
+    display: inline;
+  }
+  a {
+    padding-right: 3px;
+  }
+  .wrapper > div {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  nav {
+    margin-right: 1em;
+  }
+  div.logo {
+    margin-left: 1em;
+  }
+  div.logo {
+    margin-left: 1em;
+  }
+  .wrapper > div.pad {
+    margin: 0;
+    padding: 1em;
+  }
+  .container > h1 {
+    font-size: 3em;
+  }
+  div.form-container {
+    padding: 1em 1em;
+  }
+  div.social-media {
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  div.social-para {
+    padding-top: 2em;
+  }
+  div.portfolio-grid > img {
+    max-width: 250px;
+    max-height: 250px;
+  }
+}
