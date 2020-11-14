@@ -1,0 +1,38 @@
+[
+    {
+        "imageSrc": "../images/ascent",
+        "oddOrEvenHeader": "h-odd", 
+        "oddOrEvenParagraph": "para-odd", 
+        "projectCode": "https://relizabet.github.io/dry-coders/", 
+        "projectDescription": " Ascent Sobriety Tool helps members track their daily mood & thoughts as well as various lengths of sobriety. In a time where more and more people are living sober lifestyles, this app caters to those who are seeking to track continuous time as well as discontinuous time. This application was built with Express, Sequelize, MySQL, CORS, Nodemailer, Passport, Express-Handlebars, Moment, ApexCharts, and Bootstrap.", 
+        "projectLink": "https://ascent-sobriety.herokuapp.com/", 
+        "projectTitle": "Ascent Sobriety"
+    },
+    {
+        "imageSrc": "../images/burger",
+        "oddOrEvenHeader": "h-even", 
+        "oddOrEvenParagraph": "para-even", 
+        "projectCode": "https://github.com/relizabet/Eat_Da_Burger", 
+        "projectDescription": "An 8-Bit styled Burger Restaurant where users can order, eat, and delete burgers of their choosing. Built with Node.js, Express, Express-Handlebars, and MySQL.", 
+        "projectLink": "https://relizabet.github.io/Eat_Da_Burger/", 
+        "projectTitle": "Eat-Da-Burger"
+    },
+    {
+        "imageSrc": "../images/pwgen903.png",
+        "oddOrEvenHeader": "h-odd", 
+        "oddOrEvenParagraph": "para-odd", 
+        "projectCode": "https://github.com/relizabet/Random_Password_Gen", 
+        "projectDescription": "For the Password Generator assignment we were asked to create an application that would provide a random password to a user based on length, letter, number, and special character options that the user needs. The application uses HTML, CSS, and Javascript.",
+        "projectLink": "https://relizabet.github.io/Random_Password_Gen/", 
+        "projectTitle": "Password Generator"
+    },
+    {
+        "imageSrc": "../images/wbytes903.png",
+        "oddOrEvenHeader": "h-even", 
+        "oddOrEvenParagraph": "h-odd", 
+        "projectCode": "https://github.com/relizabet/Work_Bytes", 
+        "projectDescription": "In this project we were asked to work as a group to come up with an original application base on API's of our own choosing. The application allows a user to choose a job based on the restaurants located nearby. The application uses HTML, CSS, jQuery, JavaScript, the Mapquest API, the Muse API, the Zomato API, and the Materialize CSS Framework.", 
+        "projectLink": "https://relizabet.github.io/Work_Bytes/", 
+        "projectTitle": "Work Bytes"
+    }
+]
