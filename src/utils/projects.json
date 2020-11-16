@@ -1,6 +1,6 @@
 [
     {
-        "imageSrc": "../images/ascent",
+        "imageSrc": "/static/media/ascent.png",
         "oddOrEvenHeader": "h-odd", 
         "oddOrEvenParagraph": "para-odd", 
         "projectCode": "https://relizabet.github.io/dry-coders/", 
@@ -9,7 +9,7 @@
         "projectTitle": "Ascent Sobriety"
     },
     {
-        "imageSrc": "../images/burger",
+        "imageSrc": "../images/burger.png",
         "oddOrEvenHeader": "h-even", 
         "oddOrEvenParagraph": "para-even", 
         "projectCode": "https://github.com/relizabet/Eat_Da_Burger", 

@@ -16,7 +16,7 @@ const Contact: React.FC<{}> = () => {
               See my past projects, and anything that I am currently working on.
             </p>
             <a href="https://github.com/relizabet"
-              >github<i className="fa fa-github" aria-hidden="true"></i></a>
+              > <i className="fa fa-github" aria-hidden="true"> </i></a>
           </div>
           <div className="social-para">
             <h3>LinkedIn</h3>
@@ -26,7 +26,7 @@ const Contact: React.FC<{}> = () => {
             </p>
             <a
               href="https://www.linkedin.com/in/rachel-elizabeth-campbell-2273a8137/"
-            >LinkedIn
+            > 
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </div>
@@ -35,7 +35,7 @@ const Contact: React.FC<{}> = () => {
             <p>
               Want to keep up with me on social media? Follow me on twitter.
             </p>
-            <a href="https://twitter.com/rachelizacampb1" >Twitter
+            <a href="https://twitter.com/rachelizacampb1" > 
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
           </div>
@@ -55,9 +55,9 @@ const Contact: React.FC<{}> = () => {
           </form>
         </div>
         <div className="btn-grid-contact">
-          <button type="submit" value="Send" className="form-submit btn-submit">
+          <button type="submit" value="Send" className="form-submit btn-submit">Submit
           </button>
-          <button type="reset" value="Clear" className="form-submit btn-clear">
+          <button type="reset" value="Clear" className="form-submit btn-clear">Clear
           </button>
         </div>
       </div>
