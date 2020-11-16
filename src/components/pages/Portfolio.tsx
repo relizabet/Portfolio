@@ -1,18 +1,9 @@
 import React from 'react';
 import Header from "../Header/Header";
-import Ascent from "../../images/ascent.png";
-import WB from "../../images/wbytes903.png";
-import EightBit from "../../images/burger.png";
-import PwGen from "../../images/pwgen903.png";
-import Footer from '../Footer/Footer';
 
 const Portfolio: React.FC<{}> = () => {
     const headingOne = "Portfolio";
     const headingFour = "Selected Works";
-    const ascent = Ascent;
-    const wb = WB;
-    const eightBit = EightBit;
-    const pwgen = PwGen;
 
 
     return (
@@ -21,7 +12,7 @@ const Portfolio: React.FC<{}> = () => {
         <div className="wrapper">
         <div className="pad">
           <div className="portfolio-grid" id="about">
-            <img src={ascent} alt="Ascent Sobriety" />
+            <img src="../../images/ascent.png" alt="Ascent Sobriety" />
             <div className="portfolio-style">
               <h2 className="h-odd">Ascent Sobriety</h2>
               <p className="para-odd">
@@ -67,13 +58,13 @@ const Portfolio: React.FC<{}> = () => {
                 </button>
               </div>
             </div>
-            <img className="portfolio-even" src={eightBit} alt="" />
+            <img className="portfolio-even" src="../../images/burger.png" alt="" />
           </div>
         </div>
         <div className="pad"></div>
         <div className="pad">
           <div className="portfolio-grid">
-            <img src={pwgen} alt="" />
+            <img src="../../images/pwgen903.png" alt="" />
             <div className="portfolio-style">
               <h2 className="h-odd">Password Generator</h2>
               <p className="para-odd">
@@ -125,7 +116,7 @@ const Portfolio: React.FC<{}> = () => {
                 </button>
               </div>
             </div>
-            <img className="portfolio-even" src={wb} alt="Work Bytes" />
+            <img className="portfolio-even" src="../../images/wbytes903.png" alt="Work Bytes" />
           </div>
         </div>
         <div className="pad"></div>
