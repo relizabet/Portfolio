@@ -12,7 +12,7 @@ const Portfolio: React.FC<{}> = () => {
         <div className="wrapper">
         <div className="pad">
           <div className="portfolio-grid" id="about">
-            <img src="../images/ascent.png" alt="Ascent Sobriety" />
+            <img src="../../images/ascent.jpg" alt="Ascent Sobriety" />
             <div className="portfolio-style">
               <h2 className="h-odd">Ascent Sobriety</h2>
               <p className="para-odd">
