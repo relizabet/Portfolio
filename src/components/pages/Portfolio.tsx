@@ -12,7 +12,7 @@ const Portfolio: React.FC<{}> = () => {
         <div className="wrapper">
         <div className="pad">
           <div className="portfolio-grid" id="about">
-            <img src="../../images/ascent.png" alt="Ascent Sobriety" />
+            <img src="../images/ascent.png" alt="Ascent Sobriety" />
             <div className="portfolio-style">
               <h2 className="h-odd">Ascent Sobriety</h2>
               <p className="para-odd">
@@ -64,7 +64,7 @@ const Portfolio: React.FC<{}> = () => {
         <div className="pad"></div>
         <div className="pad">
           <div className="portfolio-grid">
-            <img src="../../images/pwgen903.png" alt="" />
+            <img src="./images/pwgen903.png" alt="" />
             <div className="portfolio-style">
               <h2 className="h-odd">Password Generator</h2>
               <p className="para-odd">
