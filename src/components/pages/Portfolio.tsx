@@ -1,9 +1,17 @@
 import React from 'react';
 import Header from "../Header/Header";
+import Ascent from "../../images/ascent.jpg";
+import WB from "../../images/wbytes903.jpg";
+import EightBit from "../../images/burger.jpg";
+import PwGen from "../../images/pwgen903.jpg";
 
 const Portfolio: React.FC<{}> = () => {
     const headingOne = "Portfolio";
     const headingFour = "Selected Works";
+    const ascent = Ascent;
+    const wb = WB;
+    const eightBit = EightBit;
+    const pwgen = PwGen;
 
 
     return (
@@ -12,7 +20,7 @@ const Portfolio: React.FC<{}> = () => {
         <div className="wrapper">
         <div className="pad">
           <div className="portfolio-grid" id="about">
-            <img src="../../images/ascent.jpg" alt="Ascent Sobriety" />
+            <img src={ascent} alt="Ascent Sobriety" />
             <div className="portfolio-style">
               <h2 className="h-odd">Ascent Sobriety</h2>
               <p className="para-odd">
@@ -58,13 +66,13 @@ const Portfolio: React.FC<{}> = () => {
                 </button>
               </div>
             </div>
-            <img className="portfolio-even" src="../../images/burger.png" alt="" />
+            <img className="portfolio-even" src={eightBit} alt="" />
           </div>
         </div>
         <div className="pad"></div>
         <div className="pad">
           <div className="portfolio-grid">
-            <img src="./images/pwgen903.png" alt="" />
+            <img src={pwgen} alt="" />
             <div className="portfolio-style">
               <h2 className="h-odd">Password Generator</h2>
               <p className="para-odd">
@@ -116,7 +124,7 @@ const Portfolio: React.FC<{}> = () => {
                 </button>
               </div>
             </div>
-            <img className="portfolio-even" src="../../images/wbytes903.png" alt="Work Bytes" />
+            <img className="portfolio-even" src={wb} alt="Work Bytes" />
           </div>
         </div>
         <div className="pad"></div>
