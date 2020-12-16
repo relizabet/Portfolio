@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d11e83a4.chunk.css",
-    "main.js": "/portfolio/static/js/main.aa39d5c3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aa39d5c3.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.9adcde90.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.9adcde90.js.map",
-    "static/js/2.a77c1cce.chunk.js": "/portfolio/static/js/2.a77c1cce.chunk.js",
-    "static/js/2.a77c1cce.chunk.js.map": "/portfolio/static/js/2.a77c1cce.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.d11e83a4.chunk.css.map": "/portfolio/static/css/main.d11e83a4.chunk.css.map",
-    "static/js/2.a77c1cce.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a77c1cce.chunk.js.LICENSE.txt",
-    "static/media/ascent.8bd4892e.jpg": "/portfolio/static/media/ascent.8bd4892e.jpg",
-    "static/media/burger.b3279bad.jpg": "/portfolio/static/media/burger.b3279bad.jpg",
-    "static/media/headshot.4c3ef3bf.jpg": "/portfolio/static/media/headshot.4c3ef3bf.jpg",
-    "static/media/pwgen903.dea87cb2.jpg": "/portfolio/static/media/pwgen903.dea87cb2.jpg",
-    "static/media/App.css": "/portfolio/static/media/texture.aae8dbd2.jpg",
-    "static/media/wbytes903.cbbd7f21.jpg": "/portfolio/static/media/wbytes903.cbbd7f21.jpg"
+    "main.css": "/home/static/css/main.8aa2020f.chunk.css",
+    "main.js": "/home/static/js/main.237e0ec3.chunk.js",
+    "main.js.map": "/home/static/js/main.237e0ec3.chunk.js.map",
+    "runtime-main.js": "/home/static/js/runtime-main.84cb6627.js",
+    "runtime-main.js.map": "/home/static/js/runtime-main.84cb6627.js.map",
+    "static/js/2.a77c1cce.chunk.js": "/home/static/js/2.a77c1cce.chunk.js",
+    "static/js/2.a77c1cce.chunk.js.map": "/home/static/js/2.a77c1cce.chunk.js.map",
+    "index.html": "/home/index.html",
+    "static/css/main.8aa2020f.chunk.css.map": "/home/static/css/main.8aa2020f.chunk.css.map",
+    "static/js/2.a77c1cce.chunk.js.LICENSE.txt": "/home/static/js/2.a77c1cce.chunk.js.LICENSE.txt",
+    "static/media/ascent.8bd4892e.jpg": "/home/static/media/ascent.8bd4892e.jpg",
+    "static/media/burger.b3279bad.jpg": "/home/static/media/burger.b3279bad.jpg",
+    "static/media/headshot.4c3ef3bf.jpg": "/home/static/media/headshot.4c3ef3bf.jpg",
+    "static/media/pwgen903.dea87cb2.jpg": "/home/static/media/pwgen903.dea87cb2.jpg",
+    "static/media/App.css": "/home/static/media/texture.aae8dbd2.jpg",
+    "static/media/wbytes903.cbbd7f21.jpg": "/home/static/media/wbytes903.cbbd7f21.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.9adcde90.js",
+    "static/js/runtime-main.84cb6627.js",
     "static/js/2.a77c1cce.chunk.js",
-    "static/css/main.d11e83a4.chunk.css",
-    "static/js/main.aa39d5c3.chunk.js"
+    "static/css/main.8aa2020f.chunk.css",
+    "static/js/main.237e0ec3.chunk.js"
   ]
 }
