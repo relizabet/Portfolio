@@ -11,12 +11,12 @@ const Nav: React.FC<{}> = () => {
         </div>
         <nav>
           <ul>
-            <li className="about header-btn"><Link className="link-style" to="home">About Me</Link></li>
+            <li className="about header-btn"><Link className="link-style" to="/home">About Me</Link></li>
             <li className="portfolio header-btn">
-              <Link className="link-style" to="portfolio">Portfolio</Link>
+              <Link className="link-style" to="/portfolio">Portfolio</Link>
             </li>
             <li className="contact header-btn">
-              <Link className="link-style" to="contact">Contact</Link>
+              <Link className="link-style" to="/contact">Contact</Link>
             </li>
           </ul>
         </nav>
