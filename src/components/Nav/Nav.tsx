@@ -6,12 +6,12 @@ const Nav: React.FC<{}> = () => {
       <div className="justify">
         <div className="logo">
           <div className="logo-div header-btn">
-            <Link className="logo-text link-style" to="/home">REC</Link>
+            <Link className="logo-text link-style" to="/">REC</Link>
           </div>
         </div>
         <nav>
           <ul>
-            <li className="about header-btn"><Link className="link-style" to="/home">About Me</Link></li>
+            <li className="about header-btn"><Link className="link-style" to="/">About Me</Link></li>
             <li className="portfolio header-btn">
               <Link className="link-style" to="/portfolio">Portfolio</Link>
             </li>
