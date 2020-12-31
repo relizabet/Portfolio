@@ -2,9 +2,9 @@ import React from 'react';
 import Header from '../Header/Header';
 import Headshot from "../../images/headshot.jpg";
 import Ascent from "../../images/ascent.png";
-import WB from "../../images/wbytes903.png";
+import Tracker from "../../images/tracker.png";
 import EightBit from "../../images/burger.png";
-import PwGen from "../../images/pwgen903.png";
+import VedgeIn from "../../images/vedge-in.png";
 import Nav from "../Nav/Nav";
 import Experience from "../Experience/Experience"
 
@@ -17,9 +17,9 @@ const Home: React.FC<{}> = () => {
     const headingOnePort = "Portfolio";
     const headingFourPort = "Selected Works";
     const ascent = Ascent;
-    const wb = WB;
+    const tracker = Tracker;
     const eightBit = EightBit;
-    const pwgen = PwGen;
+    const vedge = VedgeIn;
 
     const headingOneContact = "Contact Me";
     const headingFourContact = "Get In Touch";
@@ -43,10 +43,7 @@ const Home: React.FC<{}> = () => {
               </div>
               <div className="pad"></div>
               <div className="pad">
-                <h2>Experience</h2>
-                {/* <p>
-                  I have experience in the following: Bootstrap, MaterializeUI, Sass, jQuery, TypeScript, Express, Node.js, Sequelize, MongoDB, Mongoose, React, JSX, Agile Development, Test Driven Development, Git, Postman, RESTful APIs, Heroku, and AWS.
-                </p> */}
+                <h2>Skills</h2>
                 <Experience />
               </div>
               </div>
@@ -66,13 +63,14 @@ const Home: React.FC<{}> = () => {
                     <div className="btn-grid">
                       <button value="" className="form-submit btn-visit">
                         <a
-                          href="https://relizabet.github.io/dry-coders/"
+                          href="https://ascent-sobriety.herokuapp.com/"
                           >Visit</a
                         >
                       </button>
                       <button value="" className="form-submit btn-code">
                         <a
-                          href="https://ascent-sobriety.herokuapp.com/"
+                        href="https://github.com/keiththarp/Ascent-Sobriety-Tool"
+                          
                           >Code</a
                         >
                       </button>
@@ -109,25 +107,22 @@ const Home: React.FC<{}> = () => {
               <div className="pad"></div>
               <div className="pad">
                 <div className="portfolio-grid">
-                  <img src={pwgen} alt="" />
+                  <img src={vedge} alt="" />
                   <div className="portfolio-style">
-                    <h2 className="h-odd">Password Generator</h2>
+                    <h2 className="h-odd">Vedge-In</h2>
                     <p className="para-odd">
-                      For the Password Generator assignment we were asked to create a an
-                      application that would provide a random password to a user based
-                      on length, letter, number, and special character options that the
-                      user needed. The application uses HTML, CSS, Javascript.
+                      Broaden your veggie horizons with the Vedge-In Challenge! Vedge-In is an application designed to help users eat healthier by encouraging them to increase the amount and diversity of vegetables in their diet. Log your veggie intake, challenge your friends, and watch you and your community get stronger and healthier!
                     </p>
                     <div className="btn-grid">
                       <button value="" className="form-submit btn-visit">
                         <a
-                          href="https://relizabet.github.io/Random_Password_Gen/"
+                          href="https://vedge-in.herokuapp.com/"
                           >Visit</a
                         >
                       </button>
                       <button  value="" className="form-submit btn-code">
                         <a
-                          href="https://github.com/relizabet/Random_Password_Gen"
+                          href="https://github.com/relizabet/veg-out"
                           >Code</a
                         >
                       </button>
@@ -139,29 +134,22 @@ const Home: React.FC<{}> = () => {
               <div className="pad">
                 <div className="portfolio-grid">
                   <div className="portfolio-style">
-                    <h2 className="h-even">Work Bytes</h2>
+                    <h2 className="h-even">Fitness Tracker</h2>
                     <p className="para-even">
-                      In this project we were asked to work as a group to come up with
-                      an original application concept based on API's of our own
-                      choosing. After a bit of pivoting due to usibility issues with a
-                      few API's that we initially chose, we landed on the idea of an
-                      application that would allow you to choose a job based on the
-                      restaurants located nearby. The application uses HTML, CSS,
-                      jQuery, Javascript, Mapquest API, Muse API, Zomato API, and the
-                      Materialize CSS framework.
+                      This application is a workout tracker that allows users to track current workouts and view them as a data set to track progress over time. Built with node.js, MongoDb, and Mongoose.
                     </p>
                     <div className="btn-grid-even">
                       <button value="" className="form-submit btn-visit-even">
                         <a
-                          href="https://relizabet.github.io/Work_Bytes/">Visit</a>
+                          href="https://hidden-coast-17443.herokuapp.com/">Visit</a>
                       </button>
                       <button value="" className="form-submit btn-code-even">
                         <a
-                          href="https://github.com/relizabet/Work_Bytes">Code</a>
+                          href="https://github.com/relizabet/Workout_Tracker">Code</a>
                       </button>
                     </div>
                   </div>
-                  <img className="portfolio-even" src={wb} alt="Work Bytes" />
+                  <img className="portfolio-even" src={tracker} alt="Work Bytes" />
                 </div>
               </div>
             </div>
