@@ -794,6 +794,9 @@ div.btn-grid-contact > button.btn-submit {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  .wrapper > div.pad:nth-child(even) {
+    background-size: contain;
+  }
 }
 
 @media screen and (max-width: 500px) {
