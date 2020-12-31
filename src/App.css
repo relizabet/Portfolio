@@ -380,8 +380,9 @@ div.portfolio-grid > a > img {
 }
 
 div.portfolio-grid > a > img:hover {
-  opacity: .9;
   cursor: pointer;
+  box-shadow: 1px 1px 4px rgb(189, 177, 177);
+
 }
 
 div.about-grid > img {
