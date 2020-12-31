@@ -42,25 +42,6 @@ const Contact: React.FC<{}> = () => {
         </div>
       </div>
       <div className="pad"></div>
-      <div className="pad">
-        <h3>Something else? Send Me an Email</h3>
-        <div className="form-container">
-          <form action="#" method="POST" className="form-style">
-            <label htmlFor="name">Name</label>
-            <input type="text" name="name" />
-            <label htmlFor="email">Email</label>
-            <input type="text" name="email" />
-            <label htmlFor="message">Message</label>
-            <textarea name="message"> </textarea>
-          </form>
-        </div>
-        <div className="btn-grid-contact">
-          <button type="submit" value="Send" className="form-submit btn-submit">Submit
-          </button>
-          <button type="reset" value="Clear" className="form-submit btn-clear">Clear
-          </button>
-        </div>
-      </div>
       <div className="pad"></div>
     </div>
         </>
