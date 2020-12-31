@@ -381,7 +381,7 @@ div.portfolio-grid > a > img {
 
 div.portfolio-grid > a > img:hover {
   cursor: pointer;
-  box-shadow: 1px 1px 4px rgb(189, 177, 177);
+  box-shadow: 1px 1px 7px rgb(189, 180, 180);
 
 }
 
