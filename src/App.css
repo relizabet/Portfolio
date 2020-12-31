@@ -691,7 +691,7 @@ div.btn-grid-contact > button.btn-submit {
   img {
     justify-self: center;
   }
-  img.portfolio-even {
+  a.portfolio-even {
     justify-self: center;
     padding-top: 2em;
   }
