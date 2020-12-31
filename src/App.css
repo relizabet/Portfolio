@@ -96,7 +96,8 @@ div.App {
 } */
 
 body {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: "Montserrat", sans-serif;
   margin: 0px;
   padding: 0px;
 }
@@ -210,7 +211,7 @@ div.pad > p {
   text-align: justify;
   padding: 1em 0;
   color: rgb(83, 82, 82);
-  /* max-width: 1100px; */
+  max-width: 1100px;
   font-size: x-large;
 }
 
@@ -273,10 +274,49 @@ footer {
   margin: 10px 0;
 }
 
+/* experience */
+
+div.experience-grid {
+  /* max-width: 900px; */
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  color: rgb(0, 0, 0);
+  align-items: center;
+  padding: 10px;
+}
+
+div.experience-container {
+  padding: 5px;
+  margin: 5%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  text-align: center;
+
+}
+
+div.experience-pill {
+  color: black;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 1px 1px 4px rgb(194, 185, 185);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin: 5px;
+  padding: 2px 5px;
+  font-family: "Montserrat", sans-serif;
+  
+}
+
+/* end experience */
+
+
 /* portfolio page */
 
 div.portfolio-grid {
-  /* max-width: 1100px; */
+  max-width: 1100px;
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -285,7 +325,7 @@ div.portfolio-grid {
 }
 
 div.about-grid {
-  /* max-width: 1100px; */
+  max-width: 1100px;
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 2fr;
@@ -429,7 +469,7 @@ div.social-media {
   grid-template-columns: 1fr 1fr 1fr;
   text-align: center;
   justify-content: center;
-  /* max-width: 1100px; */
+  max-width: 1100px;
 }
 
 i.fa-linkedin,
@@ -537,9 +577,52 @@ div.btn-grid-contact > button.btn-submit {
 
 
 /* contact end */
+
+@media screen and (max-width: 1600px) {
+  div.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  div.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
 @media screen and (max-width: 1200px) {
   .container-xl {
-    max-width: 1500px !important;
+    max-width: 1159px !important;
+  }
+  div.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }
 
@@ -584,11 +667,24 @@ div.btn-grid-contact > button.btn-submit {
     color: rgb(0, 0, 0);
     align-items: center;
   }
+  div.experience-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    color: rgb(0, 0, 0);
+    align-items: center;
+  }
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
   div.about-grid {
     display: grid;
     grid-template-columns: 1fr;
     color: rgb(0, 0, 0);
     align-items: center;
+
   }
   img {
     justify-self: center;
@@ -689,5 +785,20 @@ div.btn-grid-contact > button.btn-submit {
   div.portfolio-grid > img {
     max-width: 250px;
     max-height: 250px;
+  }
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  div.experience-container {
+    padding: 5px;
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
   }
 }

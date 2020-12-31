@@ -6,6 +6,7 @@ import WB from "../../images/wbytes903.png";
 import EightBit from "../../images/burger.png";
 import PwGen from "../../images/pwgen903.png";
 import Nav from "../Nav/Nav";
+import Experience from "../Experience/Experience"
 
 
 const Home: React.FC<{}> = () => {
@@ -25,14 +26,6 @@ const Home: React.FC<{}> = () => {
 
     return (
         <>
-          {/* <div className="justify" >
-            <div className="logo">
-              <div className="logo-div header-btn">
-                <li className="logo-text link-style" >REC</li>
-              </div>
-            </div>
-            <Nav />
-          </div> */}
           <Nav />
           <div id="about">
           <Header headingOne={headingOneAbout} headingFour={headingFourAbout}/>
@@ -43,8 +36,7 @@ const Home: React.FC<{}> = () => {
                   <img src={headshot} id="headshot" alt="Rachel Campbell" />
                   <div className="portfolio-style">
                     <p className="para-odd">
-                        Hello! My name is Rachel. I am a studying Front End Web Development at
-                        the University of New Hampshire. I am a Full Stack Web Developer leveraging a background of 5+ in Customer Service and Fine Arts. Proficient in modern HTML, CSS, and Javascript along with many libraries and frameworks. Excellent problem solver who thrives in a team environment. Strengths in sticking with difficult problems, design, and communication.
+                        Hello! My name is Rachel. I am a Full Stack Web Developer leveraging a background of 5+ in Customer Service and Fine Arts. Proficient in modern HTML, CSS, and Javascript along with many libraries and frameworks. Excellent problem solver who thrives in a team environment. Strengths in sticking with difficult problems, design, and communication.
                     </p>
                   </div>
                 </div>
@@ -52,22 +44,13 @@ const Home: React.FC<{}> = () => {
               <div className="pad"></div>
               <div className="pad">
                 <h2>Experience</h2>
-                <p>
+                {/* <p>
                   I have experience in the following: Bootstrap, MaterializeUI, Sass, jQuery, TypeScript, Express, Node.js, Sequelize, MongoDB, Mongoose, React, JSX, Agile Development, Test Driven Development, Git, Postman, RESTful APIs, Heroku, and AWS.
-                </p>
+                </p> */}
+                <Experience />
               </div>
               </div>
               <div className="pad"></div>
-              <div className="pad">
-                <h2>Resume</h2>
-                <p>
-                  To view and download my resume click<a
-                    href="Assets/dif.pdf"
-                    target="_blank"
-                    >here</a
-                  >.
-                </p>
-              </div>
             </div>
             <div className="reset"  id="portfolio-link">
               <Header headingOne={headingOnePort} headingFour={headingFourPort} />
