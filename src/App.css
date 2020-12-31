@@ -795,7 +795,7 @@ div.btn-grid-contact > button.btn-submit {
     grid-template-columns: 1fr 1fr 1fr;
   }
   .wrapper > div.pad:nth-child(even) {
-    background-size: contain;
+    background-size: 30%;
   }
 }
 
@@ -805,5 +805,8 @@ div.btn-grid-contact > button.btn-submit {
     margin: 5px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+  }
+  .wrapper > div.pad:nth-child(even) {
+    background-size: 30%;
   }
 }
