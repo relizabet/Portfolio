@@ -24,6 +24,10 @@ const Home: React.FC<{}> = () => {
     const headingOneContact = "Contact Me";
     const headingFourContact = "Get In Touch";
 
+    const clickTest = () => {
+      console.log("you clicked me");
+    }
+
     return (
         <>
           <Nav />
@@ -33,7 +37,7 @@ const Home: React.FC<{}> = () => {
               <div className="pad">
                 <h2 className="h-odd">About Me</h2>
                 <div className="about-grid">
-                  <img src={headshot} id="headshot" alt="Rachel Campbell" />
+                    <img src={headshot} id="headshot" alt="Rachel Campbell" />
                   <div className="portfolio-style">
                     <p className="para-odd">
                         Hello! My name is Rachel. I am a Full Stack Web Developer leveraging a background of 5+ in Customer Service and Fine Arts. Proficient in modern HTML, CSS, and Javascript along with many libraries and frameworks. Excellent problem solver who thrives in a team environment. Strengths in sticking with difficult problems, design, and communication.
@@ -54,7 +58,9 @@ const Home: React.FC<{}> = () => {
               <div className="wrapper">
                 <div className="pad">
                   <div className="portfolio-grid">
-                    <img src={ascent} alt="Ascent Sobriety" />
+                    <a href="https://ascent-sobriety.herokuapp.com/">
+                      <img src={ascent} alt="Ascent Sobriety" />
+                    </a>
                     <div className="portfolio-style">
                     <h2 className="h-odd" id="portfolio">Ascent Sobriety</h2>
                     <p className="para-odd">
@@ -89,25 +95,29 @@ const Home: React.FC<{}> = () => {
                     <div className="btn-grid-even">
                       <button value="" className="form-submit btn-visit-even">
                         <a
-                          href="https://relizabet.github.io/Eat_Da_Burger/"
+                          href="https://sleepy-reaches-07786.herokuapp.com/"
                           >Visit</a
                         >
                       </button>
                       <button value="" className="form-submit btn-code-even">
                         <a
-                          href="https://github.com/relizabet/Eat_Da_Burger"
+                          href="https://github.com/relizabet/Eat-Da-Burger"
                           >Code</a
                         >
                       </button>
                     </div>
                   </div>
-                  <img className="portfolio-even" src={eightBit} alt="" />
+                  <a className="portfolio-even" href="https://relizabet.github.io/Eat_Da_Burger/">
+                    <img className="portfolio-even" src={eightBit} alt="" />
+                  </a>
                 </div>
               </div>
               <div className="pad"></div>
               <div className="pad">
                 <div className="portfolio-grid">
-                  <img src={vedge} alt="" />
+                  <a href="https://vedge-in.herokuapp.com/">
+                    <img src={vedge} alt="" />
+                  </a>
                   <div className="portfolio-style">
                     <h2 className="h-odd">Vedge-In</h2>
                     <p className="para-odd">
@@ -149,7 +159,9 @@ const Home: React.FC<{}> = () => {
                       </button>
                     </div>
                   </div>
-                  <img className="portfolio-even" src={tracker} alt="Work Bytes" />
+                  <a className="portfolio-even" href="https://hidden-coast-17443.herokuapp.com/">
+                    <img className="portfolio-even" src={tracker} alt="Workout Tracker" />
+                  </a>
                 </div>
               </div>
             </div>

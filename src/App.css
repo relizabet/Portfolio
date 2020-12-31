@@ -334,7 +334,7 @@ div.about-grid {
   grid-template-rows: auto;
 }
 
-img.portfolio-even {
+a.portfolio-even {
   justify-self: end;
 }
 
@@ -369,7 +369,7 @@ img {
   text-align: right;
 }
 
-div.portfolio-grid > img {
+div.portfolio-grid > a > img {
   max-width: 300px;
   max-height: 300px;
   margin: 0.5em;
@@ -377,6 +377,11 @@ div.portfolio-grid > img {
   box-shadow: 1px 1px 4px rgb(201, 201, 201);
   background: rgb(253, 252, 252);
   border-radius: 3px;
+}
+
+div.portfolio-grid > a > img:hover {
+  opacity: 70%;
+  cursor: pointer;
 }
 
 div.about-grid > img {
@@ -389,7 +394,7 @@ div.about-grid > img {
   border-radius: 3px;
 }
 
-div.portfolio-grid > img:hover {
+div.portfolio-grid > a > img:hover {
   background: none;
 }
 
@@ -532,10 +537,6 @@ div.btn-grid-contact > button.btn-submit {
   vertical-align: middle;
   font-size: 14px;
   margin: 0 10px;
-}
-
-.menu-trigger img {
-  border-radius: 90px;
 }
 
 .menu {
@@ -782,7 +783,7 @@ div.btn-grid-contact > button.btn-submit {
     max-width: 200px; 
     border-radius: 50%;
   }
-  div.portfolio-grid > img {
+  div.portfolio-grid > a > img {
     max-width: 250px;
     max-height: 250px;
   }
