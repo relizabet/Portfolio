@@ -1,28 +1,47 @@
-import React from 'react';
-import { Link } from "react-router-dom";
+import React, { useRef } from "react";
+import "../../App.css";
+import { useDetectOutsideClick } from "./Click";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-const Nav: React.FC<{}> = () => {
-    return (
-      <div className="justify">
-        <div className="logo">
-          <div className="logo-div header-btn">
-            <Link className="logo-text link-style" to="/home">REC</Link>
-          </div>
+
+export default function App() {
+  const dropdownRef = useRef(null);
+  const [isActive, setIsActive] = useDetectOutsideClick(dropdownRef, false);
+  const onClick = () => setIsActive(!isActive);
+
+  return (
+
+    <div className="justify" >
+      <div className="logo">
+        <div className="logo-div header-btn">
+          <li className="logo-text link-style" >REC</li>
         </div>
-        <nav>
-          <ul>
-            <li className="about header-btn"><Link className="link-style" to="/home">About Me</Link></li>
-            <li className="portfolio header-btn">
-              <Link className="link-style" to="/portfolio">Portfolio</Link>
-            </li>
-            <li className="contact header-btn">
-              <Link className="link-style" to="/contact">Contact</Link>
-            </li>
-          </ul>
-        </nav>
       </div>
-    );
+      <div className="container">
+        <div className="menu-container">
+          <button onClick={onClick} className="menu-trigger">
+            <span><FontAwesomeIcon icon={faBars}></FontAwesomeIcon></span>
+          </button>
+          <nav
+            ref={dropdownRef}
+            className={`menu ${isActive ? "active" : "inactive"}`}
+          >
+            <ul>
+              <li>
+                <a href="#about">About</a>
+              </li>
+              <li>
+                <a href="#portfolio-link">Portfolio</a>
+              </li>
+              <li>
+                <a href="#contact">Contact</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+
+  );
 }
-
-
-export default Nav;
