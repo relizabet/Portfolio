@@ -9,7 +9,7 @@ const Footer: React.FC<{}> = () => {
         <footer>
         &copy; Rachel E Campbell  
         <a href="https://github.com/relizabet/Updated_Portfolio" id="footer-link"
-          > | Portfolio Source Code</a>
+          > Portfolio Source Code</a>
         </footer>
     );
 }
