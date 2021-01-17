@@ -803,7 +803,7 @@ div.btn-grid-contact > button.btn-submit {
   }
 
   header.container {
-    background-size: contain;
+    background-size: 200vh;
   }
 
   .wrapper > div.pad:nth-child(even) {
@@ -822,6 +822,6 @@ div.btn-grid-contact > button.btn-submit {
     background-size: contain;
   }
   header.container {
-    background-size: contain;
+    background-size: 200vh;
   }
 }
