@@ -191,7 +191,7 @@ const Home: React.FC<{}> = () => {
               <i className="fa fa-linkedin" aria-hidden="true"></i>
             </a>
           </div>
-          <div className="social-para">
+          {/* <div className="social-para">
             <h3>Twitter</h3>
             <p>
               Want to keep up with me on social media? Follow me on twitter.
@@ -199,7 +199,7 @@ const Home: React.FC<{}> = () => {
             <a href="https://twitter.com/rachelizacampb1" > 
               <i className="fa fa-twitter" aria-hidden="true"></i>
             </a>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className="pad"></div>
