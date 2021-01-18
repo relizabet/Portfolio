@@ -40,7 +40,13 @@ const Home: React.FC<{}> = () => {
                     <img src={headshot} id="headshot" alt="Rachel Campbell" />
                   <div className="portfolio-style">
                     <p className="para-odd">
-                        Hello! My name is Rachel. I am a Full Stack Web Developer leveraging a background of 5+ in Customer Service and Fine Arts. Proficient in modern HTML, CSS, and Javascript along with many libraries and frameworks. Excellent problem solver who thrives in a team environment. Strengths in sticking with difficult problems, design, and communication.
+                      Full Stack Web Developer leveraging a background of more than five years in Customer Service, Digital Design, and Fine Arts. Proficient in modern HTML, CSS, and Javascript.
+                    </p>
+                    <p className="para-odd">
+                      Excellent problem solver who thrives in a team environment. Strengths in sticking with difficult problems, design, and communication.
+                    </p>
+                    <p className="para-odd">
+                      Download a copy of my resume <a href="https://tinyurl.com/relizabeth-resume">here</a>.
                     </p>
                   </div>
                 </div>
@@ -192,12 +198,11 @@ const Home: React.FC<{}> = () => {
             </a>
           </div>
           {/* <div className="social-para">
-            <h3>Twitter</h3>
+            <h3></h3>
             <p>
-              Want to keep up with me on social media? Follow me on twitter.
             </p>
-            <a href="https://twitter.com/rachelizacampb1" > 
-              <i className="fa fa-twitter" aria-hidden="true"></i>
+            <a href="" > 
+              <i className="fa fa-" aria-hidden="true"></i>
             </a>
           </div> */}
         </div>
