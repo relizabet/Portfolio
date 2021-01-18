@@ -23,7 +23,7 @@ Personal portfolio.
   - [Acknowledgements](#acknowledgements)
 
 
-View the deployed application [here](https://relizabet.github.io/home/).
+View the deployed application [here](https://relizabet.github.io/portfolio_react/).
 
 <!-- ![Main](public/applicatio.png) -->
 
