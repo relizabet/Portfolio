@@ -309,6 +309,8 @@ div.experience-pill {
   justify-self: center;
   align-self: center;
   padding: 0px 6px;
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
 }
 
 /* end experience */
