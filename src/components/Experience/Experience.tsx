@@ -11,7 +11,7 @@ const Header: React.FC<{}> = () => {
                     <div className="experience-pill">SQL</div>
                     <div className="experience-pill">NoSQL</div>
                     <div className="experience-pill">Bootstrap</div>
-                    <div className="experience-pill">MaterialUI</div>
+                    <div className="experience-pill">Material UI</div>
                     <div className="experience-pill">SEO</div>
                 </div>
                 <div className="experience-container">
@@ -34,7 +34,7 @@ const Header: React.FC<{}> = () => {
                     <div className="experience-pill">Heroku</div>
                     <div className="experience-pill">AWS</div>
                     <div className="experience-pill">Serverless</div>
-                    <div className="experience-pill">AdobeXD</div>
+                    <div className="experience-pill">Adobe XD</div>
                 </div>
             </div>
     );

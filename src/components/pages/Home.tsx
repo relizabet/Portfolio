@@ -24,10 +24,6 @@ const Home: React.FC<{}> = () => {
     const headingOneContact = "Contact Me";
     const headingFourContact = "Get In Touch";
 
-    const clickTest = () => {
-      console.log("you clicked me");
-    }
-
     return (
         <>
           <Nav />
