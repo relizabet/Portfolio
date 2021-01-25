@@ -6,7 +6,9 @@ import Tracker from "../../images/tracker.png";
 import EightBit from "../../images/burger.png";
 import VedgeIn from "../../images/vedge-in.png";
 import Nav from "../Nav/Nav";
-import Experience from "../Experience/Experience"
+import Experience from "../Experience/Experience";
+import AscentDesign from "../DesignExamples/AscentDesign";
+import KnownPoint from '../DesignExamples/KnownPoint';
 
 
 const Home: React.FC<{}> = () => {
@@ -14,12 +16,14 @@ const Home: React.FC<{}> = () => {
     const headingFourAbout = "Full Stack Web Developer";
     const headshot = Headshot;
 
-    const headingOnePort = "Portfolio";
+    const headingOnePort = "Development Portfolio";
     const headingFourPort = "Selected Works";
     const ascent = Ascent;
     const tracker = Tracker;
     const eightBit = EightBit;
     const vedge = VedgeIn;
+
+    const headingOneDesign = "Design Portfolio";
 
     const headingOneContact = "Contact Me";
     const headingFourContact = "Get In Touch";
@@ -47,13 +51,13 @@ const Home: React.FC<{}> = () => {
                   </div>
                 </div>
               </div>
-              <div className="pad"></div>
+              <div className="pad container-box-shadow"></div>
               <div className="pad">
                 <h2>Skills</h2>
                 <Experience />
               </div>
               </div>
-              <div className="pad"></div>
+              <div className="pad container-box-shadow"></div>
             </div>
             <div className="reset"  id="portfolio-link">
               <Header headingOne={headingOnePort} headingFour={headingFourPort} />
@@ -86,7 +90,7 @@ const Home: React.FC<{}> = () => {
                   </div>
                 </div>
               </div>
-              <div className="pad"></div>
+              <div className="pad container-box-shadow"></div>
               <div className="pad">
                 <div className="portfolio-grid">
                   <div className="portfolio-style">
@@ -114,7 +118,7 @@ const Home: React.FC<{}> = () => {
                   </a>
                 </div>
               </div>
-              <div className="pad"></div>
+              <div className="pad container-box-shadow"></div>
               <div className="pad">
                 <div className="portfolio-grid">
                   <a href="https://vedge-in.herokuapp.com/">
@@ -142,32 +146,20 @@ const Home: React.FC<{}> = () => {
                   </div>
                 </div>
               </div>
-              <div className="pad"></div>
+              {/* <div className="pad container-box-shadow"></div> */}
+              </div>
+          </div>
+          {/* <div className="reset">
+            <Header headingOne={headingOneDesign} headingFour={headingFourPort} />
+            <div className="wrapper">
               <div className="pad">
-                <div className="portfolio-grid">
-                  <div className="portfolio-style">
-                    <h2 className="h-even">Fitness Tracker</h2>
-                    <p className="para-even">
-                      This application is a workout tracker that allows users to track current workouts and view them as a data set to track progress over time. Built with node.js, MongoDb, and Mongoose.
-                    </p>
-                    <div className="btn-grid-even">
-                      <button value="" className="form-submit btn-visit-even">
-                        <a
-                          href="https://hidden-coast-17443.herokuapp.com/">Visit</a>
-                      </button>
-                      <button value="" className="form-submit btn-code-even">
-                        <a
-                          href="https://github.com/relizabet/Workout_Tracker">Code</a>
-                      </button>
-                    </div>
-                  </div>
-                  <a className="portfolio-even" href="https://hidden-coast-17443.herokuapp.com/">
-                    <img className="portfolio-even" src={tracker} alt="Workout Tracker" />
-                  </a>
+                <div className="design-grid">
+                  <AscentDesign />
+                  <KnownPoint />
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div id="contact">
           <Header headingOne={headingOneContact} headingFour={headingFourContact} />
             <div className="wrapper">
@@ -203,7 +195,7 @@ const Home: React.FC<{}> = () => {
           </div> */}
         </div>
       </div>
-      <div className="pad"></div>
+      <div className="pad container-box-shadow"></div>
     </div>
     </div>
         </>

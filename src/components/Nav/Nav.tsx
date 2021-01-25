@@ -12,7 +12,7 @@ export default function App() {
 
   return (
 
-    <div className="justify" >
+    <div className="justify container-box-shadow" >
       <div className="logo">
         <div className="logo-div header-btn">
           <li className="logo-text link-style" >REC</li>
