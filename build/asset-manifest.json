@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/portfolio_react/static/css/main.4c577a9f.chunk.css",
+    "main.js": "/portfolio_react/static/js/main.e344c12b.chunk.js",
+    "main.js.map": "/portfolio_react/static/js/main.e344c12b.chunk.js.map",
+    "runtime-main.js": "/portfolio_react/static/js/runtime-main.7dfc6e8b.js",
+    "runtime-main.js.map": "/portfolio_react/static/js/runtime-main.7dfc6e8b.js.map",
+    "static/js/2.ef22b219.chunk.js": "/portfolio_react/static/js/2.ef22b219.chunk.js",
+    "static/js/2.ef22b219.chunk.js.map": "/portfolio_react/static/js/2.ef22b219.chunk.js.map",
+    "index.html": "/portfolio_react/index.html",
+    "static/css/main.4c577a9f.chunk.css.map": "/portfolio_react/static/css/main.4c577a9f.chunk.css.map",
+    "static/js/2.ef22b219.chunk.js.LICENSE.txt": "/portfolio_react/static/js/2.ef22b219.chunk.js.LICENSE.txt",
+    "static/media/ascent.8bd4892e.png": "/portfolio_react/static/media/ascent.8bd4892e.png",
+    "static/media/burger.b3279bad.png": "/portfolio_react/static/media/burger.b3279bad.png",
+    "static/media/headshot.4c3ef3bf.jpg": "/portfolio_react/static/media/headshot.4c3ef3bf.jpg",
+    "static/media/App.css": "/portfolio_react/static/media/texture.aae8dbd2.jpg",
+    "static/media/vedge-in.014e8b31.png": "/portfolio_react/static/media/vedge-in.014e8b31.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7dfc6e8b.js",
+    "static/js/2.ef22b219.chunk.js",
+    "static/css/main.4c577a9f.chunk.css",
+    "static/js/main.e344c12b.chunk.js"
+  ]
+}
