@@ -196,7 +196,7 @@ p.para-odd, p.para-even {
 .wrapper > div.pad {
   display: grid;
   grid-template-rows: auto;
-  padding: 4em 12em;
+  padding: 4em 8em;
   justify-content: center;
 }
 
@@ -300,7 +300,7 @@ div.design-grid {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  /* align-items: center; */
+  text-align: center;
 }
 
 div.design-div {
@@ -787,6 +787,9 @@ div.btn-grid-contact > button.btn-submit {
   #headshot {
     max-width: 300px; 
     border-radius: 50%;
+  }
+  div.design-grid {
+    grid-template-columns: 1fr;
   }
 }
 
