@@ -90,13 +90,12 @@ div.App {
   padding: 0px;
 }
 
-/* div.reset {
+div.reset {
   margin: 0px;
   padding: 0px;
-} */
+}
 
 body {
-  /* font-family: "Raleway", sans-serif; */
   font-family: "Montserrat", sans-serif;
   margin: 0px;
   padding: 0px;
@@ -110,10 +109,15 @@ header.container {
   text-align: center;
   margin: auto 0px;
   padding: 100px 0px 150px 0px;
+  width: auto;
 }
 
 .container-box-shadow {
   box-shadow: inset 0 0 10px rgb(189, 183, 183);
+}
+
+.card-box-shadow {
+  box-shadow: 1px 3px 8px rgb(189, 183, 183);
 }
 
 #headshot {
@@ -155,11 +159,33 @@ a:hover {
   text-shadow: 1px 0px 3px rgb(255, 255, 255);
 }
 
-h2.h-odd,
+div.design-div > h2, h4 {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  color: rgb(48, 48, 48);
+}
+
+div.design-div > h4 {
+  letter-spacing: .2em;
+  padding: 5px 0;
+  text-transform: none;
+  color: rgb(101, 101, 101);
+
+}
+
+.iframe {
+  padding-top: 5%;
+}
+
+h2, h2.h-odd,
 h2.h-even {
   color: rgb(48, 48, 48);
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
+}
+
+p.para-odd, p.para-even {
+  padding: 5% 0;
 }
 
 .wrapper {
@@ -219,9 +245,9 @@ div.logo {
   text-align: left;
 }
 
-div.portfolio-style {
+/* div.portfolio-style {
   padding: 2em;
-}
+} */
 
 div.logo-div {
   margin-top: 6px;
@@ -274,16 +300,11 @@ div.design-grid {
   justify-content: center;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
+  /* align-items: center; */
 }
 
 div.design-div {
   padding: 10px;
-}
-
-iframe.known-point {
-  width: auto;
-  height: 100vh;
 }
 
 /* Design */
@@ -363,8 +384,7 @@ a.portfolio-even {
 p,
 img.portfolio-odd,
 div.portfolio-style > h2 {
-  padding-bottom: 1em;
-  padding-top: 1em;
+  padding-bottom: 1em 0;
 }
 
 div.portfolio-style > p {
@@ -376,9 +396,7 @@ a#footer-link {
   text-transform: lowercase;
   color: rgb(215, 209, 209);
   text-align: right;
-  /* border-left: 1px dotted rgb(221, 198, 198); */
-  padding-right: 5px;
-  padding-left: 5px;
+  padding-right: 5px 0;
 }
 
 h2.h-odd,
@@ -601,6 +619,20 @@ div.btn-grid-contact > button.btn-submit {
   display: block;
 }
 
+.right {
+  text-align: right !important;
+}
+
+.left {
+  text-align: left !important;
+}
+
+.center {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
 
 /* contact end */
 
@@ -650,6 +682,10 @@ div.btn-grid-contact > button.btn-submit {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .wrapper > div.pad {
+    margin: 0;
+    padding: 2em;
+  }
 }
 
 @media screen and (max-width: 992px) {
@@ -682,7 +718,7 @@ div.btn-grid-contact > button.btn-submit {
   }
   .wrapper > div.pad {
     margin: 0;
-    padding: 6em;
+    padding: 2em;
   }
   .container > h1 {
     font-size: 3em;
@@ -801,7 +837,7 @@ div.btn-grid-contact > button.btn-submit {
     padding-top: 2em;
   }
   h1.header-one-style {
-    font-size: 35px;
+    font-size: 30px;
   }
   h4.header-four-style {
     font-size: 13px;

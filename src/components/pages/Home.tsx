@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../Header/Header';
 import Headshot from "../../images/headshot.jpg";
 import Ascent from "../../images/ascent.png";
-import Tracker from "../../images/tracker.png";
+// import Tracker from "../../images/tracker.png";
 import EightBit from "../../images/burger.png";
 import VedgeIn from "../../images/vedge-in.png";
 import Nav from "../Nav/Nav";
@@ -19,11 +19,13 @@ const Home: React.FC<{}> = () => {
     const headingOnePort = "Development Portfolio";
     const headingFourPort = "Selected Works";
     const ascent = Ascent;
-    const tracker = Tracker;
+    // const tracker = Tracker;
     const eightBit = EightBit;
     const vedge = VedgeIn;
 
     const headingOneDesign = "Design Portfolio";
+    const headingFourDesign = "Interactive Designs";
+
 
     const headingOneContact = "Contact Me";
     const headingFourContact = "Get In Touch";
@@ -149,8 +151,8 @@ const Home: React.FC<{}> = () => {
               {/* <div className="pad container-box-shadow"></div> */}
               </div>
           </div>
-          {/* <div className="reset">
-            <Header headingOne={headingOneDesign} headingFour={headingFourPort} />
+          <div className="reset">
+            <Header headingOne={headingOneDesign} headingFour={headingFourDesign} />
             <div className="wrapper">
               <div className="pad">
                 <div className="design-grid">
@@ -159,7 +161,7 @@ const Home: React.FC<{}> = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
           <div id="contact">
           <Header headingOne={headingOneContact} headingFour={headingFourContact} />
             <div className="wrapper">
